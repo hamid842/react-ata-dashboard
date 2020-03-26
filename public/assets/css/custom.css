@@ -1,0 +1,358 @@
+
+/* General */
+.col-in h3 {
+    font-size: 28px;
+    font-weight: 200;
+}
+.col-in {
+    padding: 10px;
+}
+.white-box {
+    padding: 0 15px 15px;
+}
+.text-primary {
+    color: #112c59!important;
+}
+.progress-bar-primary {
+    background-color: #0f2b58;
+}
+.white-box.fix-height {
+	height: 360px;
+	overflow-y: auto;
+    overflow-x: hidden;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.white-box .box-title {
+    margin: 0px 0 15px;
+    font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+    line-height: 32px;
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px;
+}
+#side-menu > li > a.active i {
+    color: #fff;
+}
+#side-menu > li > a.active {
+    background: rgba(0, 0, 0, 0.07);
+    border-right: 5px solid #da251d;
+    color: #ffffff;
+}
+#side-menu li a i{
+	margin-left: 5px;
+}
+.sidebar {
+	background: #31364c;
+}
+.sidebar {
+	background-image: url(../images/sidemenu-bg.png);
+	background-position: bottom left;
+	background-repeat: no-repeat;
+}
+/* navbar */
+#shamsi-date {
+	line-height: 60px;
+    min-height: 60px;
+    display: block;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 100;
+    padding: 0 12px;
+}
+.navbar-header {
+	background-image: url(../images/nav-bg.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding: 0px 0px 50px;	
+}
+.profile-pic {
+	font-size: 12px;
+}
+.nav.navbar-top-links > li > a {
+	padding: 0px 12px;
+}
+.top-left-part {
+	background: #fff;
+	border-bottom: 1px solid #ebebeb;
+}
+.profile-pic img {
+	border: 3px solid;
+    border-color: rgba(255, 255, 255, 0.21);
+}
+.navbar-static-top {
+	z-index: 9;
+}
+#full-icon-btn {
+	background: orange;
+    border-radius: 5px;
+    line-height: 25px;
+    min-height: 24px;
+    font-size: 12px;
+    margin: 17px;
+}
+#full-icon-btn::after {
+	display: none;
+}
+#top-links {
+	position: absolute;
+    width: 100%;
+	top: 61px;
+	padding-right: 20px;
+    padding-left: 20px;
+}
+#top-links .icon-box {
+	background: #fff;
+	border-color: transparent;
+}
+#top-links .col-md-1 {
+	margin-left: 5px;
+    width: 78px;
+    max-width: 78px;
+}
+#top-links .icon-box i {
+	font-size: 22px;
+    display: block;
+    margin-bottom: 5px;
+}
+#top-links .icon-box span{
+	font-size: 10px;
+    padding: 5px;
+    line-height: 1;
+    font-weight: 100;
+    display: block;
+}
+#top-links .icon-box p {
+    font-size: 10px;
+    padding: 5px;
+    font-weight: 100;
+    line-height: 1.3;
+}
+#top-links .icon-box > a {
+	padding: 22% 0;
+}
+
+/* sidebar */
+.sidebar {
+	padding-top: 0px;
+}
+.fix-sidebar .sidebar {
+	z-index: 99;
+}
+.slimScrollDiv {
+	margin-top: 60px;
+}
+
+/* full icon box */
+#full-icon-box {
+	top: 61px;
+	padding: 60px;
+	background-image: url(../images/logo-bg.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+.tab-content {
+    margin-top: 15px;
+    border: 1px solid #ebebeb;
+}
+#full-icon-box .nav-tabs {
+	background-color: #eeedf1;
+	padding: 0px 0;
+}
+#full-icon-box .nav-tabs > li > a ,#full-icon-box .nav-tabs > li{
+	border-radius: 0;
+	margin-left: 0;
+}
+.customtab2 li .nav-link.active, .customtab2 li .nav-link.active:focus, .customtab2 li .nav-link.active:hover {
+    background: #ef9c00;
+    border: 0 solid #ef9c00;
+    color: #fff;
+}
+#full-icon-box .container {
+    width: 780px;
+    max-width: 100%;
+}
+.icon-box {
+	width: 100%;
+    border-color: #ebebeb;
+    border-style: solid;
+	border-width: 0 0 1px 1px;
+	position: relative;
+	padding-top: 100%;
+	transition: all 0.2s ease;
+}
+.tabpanel .col-md-2 {
+	transition: all 0.2s ease;
+}
+.tabpanel .row:last-child .icon-box {
+	border-width: 0 0 0px 1px;
+}
+.tabpanel .row .icon-box:last-child {
+	border-width: 0 0 1px 0px;
+}
+.icon-box:hover {
+	background-color: #112b58 !important;
+	/* box-shadow: 0px 5px 28.8px 3.2px rgba(0, 0, 0, 0.24); */
+	cursor: pointer;
+}
+.icon-box > a {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+	text-align: center;
+	display: block;
+	padding: 30% 0;	
+	transition: all 0.2s ease;
+}
+.icon-box i {
+	color: #112b58;
+    font-size: 27px;
+	display: block;
+	margin-bottom: 10px;
+	transition: all 0.2s ease;
+}
+.icon-box span {
+	color: #d3010a;
+    font-size: 12px;
+    padding: 5px;
+	font-weight: 100;
+	transition: all 0.2s ease;
+}
+.icon-box p {
+	display: none;
+	color: #fff;
+    font-size: 12px;
+    padding: 5px;
+	font-weight: 100;
+	transition: all 0.2s ease;
+}
+.icon-box:hover i , .icon-box:hover span{
+	display: none !important;
+}
+.icon-box:hover p {
+	display: block;
+}
+/* feeds box */ 
+.feeds li {
+	padding: 5px 0;
+	font-size: 12px;
+}
+.feeds li > div i {
+    line-height: 30px;
+}
+.feeds li > div {
+	width: 30px;
+	height: 30px;
+	margin-left: 8px;
+}	
+.feeds li span {
+    float: none;
+    width: 100%;
+    display: block;
+    font-size: 10px;
+    text-align: left;
+}
+.progress {
+	margin-bottom: 0;
+}
+/* HOME */
+#clock {
+	width: 100%;
+    color: #000;
+    font-size: 22px;
+    text-align: center;
+    padding: 25% 0 60%; 
+}
+#clock-box {
+	background-image: url(../images/clock-bg.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+.icon-tab {
+	border-bottom: 0px solid #ddd;
+	flex-direction: row-reverse;
+}
+.icon-tab .nav-link {
+	outline: none;
+	border: none;
+	margin: 0;
+	color: #b8b8b9;
+	padding: 15px 0px 15px 15px;
+}
+.icon-tab .nav-link i {
+	font-size: 25px;
+}
+.icon-tab .nav-link.active {
+	border: none;
+	color: #374fff;
+}
+
+#weather-box .weather {
+	background: #01c0c8 ;
+	margin-top: -14px;
+}
+#weather-box .weather i {
+    color: #fff;
+    font-size: 80px;
+    margin-top: 40px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 325px;
+}
+.news-slide .news-content h2 {
+     height: auto; 
+    overflow: hidden;
+    color: #fff;
+}
+.news-slide .news-content a {
+    color: #ffa500;
+    opacity: .6;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+	.inside-header{
+		margin-right: 215px;
+	}	
+	.fix-sidebar .navbar-left  {
+		margin-right: 215px;
+	}
+	.content-wrapper .inside-header{
+		margin-right: 60px;
+	}
+	.fix-header #page-wrapper {
+		margin-top: 0px;
+	}
+	#page-wrapper {
+		padding-top: 45px;
+	}
+}
+@media (max-width: 768px) {
+	.navbar-header {
+		padding: 0;
+	}
+	.fix-header #page-wrapper {
+		margin-top: 0;
+		padding-top: 20px;
+	}
+	.slimScrollDiv {
+		margin-top: 0px;
+	}
+	.white-box.fix-height {
+		height: auto;
+	}
+}
