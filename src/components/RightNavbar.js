@@ -78,7 +78,7 @@ export default class RightNavbar extends Component {
                 </span>
               </a>
               <ul className="nav nav-second-level">
-                <li>
+                {/* <li>
                   {" "}
                   <a href="index.html">دموگرافیک</a>{" "}
                 </li>
@@ -93,7 +93,7 @@ export default class RightNavbar extends Component {
                 <li>
                   {" "}
                   <a href="index4.html">ساده تر</a>{" "}
-                </li>
+                </li> */}
               </ul>
             </li>
           </ul>

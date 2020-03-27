@@ -11,6 +11,7 @@ import "./assets/plugins/sidebar-nav/dist/sidebar-nav.min.css";
 // Morris CSS
 import "./assets/plugins/morrisjs/morris.css";
 import "./assets/plugins/css-chart/css-chart.css";
+
 // OWL Carousel CSS
 // import "./assets/plugins/owl.carousel/owl.carousel.min.css";
 // import "./assets/plugins/owl.carousel/owl.theme.default.css";
