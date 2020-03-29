@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "css-loader": "^3.4.2",
-    "morris": "^0.1.4",
     "owl.carousel": "^2.3.4",
+    "raphael": "^2.3.0",
     "style-loader": "^1.1.3"
   }
 }

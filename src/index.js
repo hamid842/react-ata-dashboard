@@ -1,16 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
+
+// Morris CSS
+import "./assets/plugins/morrisjs/morris.css";
+import "./assets/plugins/css-chart/css-chart.css";
 // Bootstrap core CSS
-import "bootstrap/dist/css/bootstrap.min.css";
+import "./assets/plugins/bootstrap/dist/css/bootstrap.min.css";
 import "./assets/plugins/bootstrap-extension/css/bootstrap-extension.css";
 // Animation CSS
 import "./assets/plugins/animate/animate.css";
 // Menu CSS
 import "./assets/plugins/sidebar-nav/dist/sidebar-nav.min.css";
-// Morris CSS
-import "./assets/plugins/morrisjs/morris.css";
-import "./assets/plugins/css-chart/css-chart.css";
 
 // OWL Carousel CSS
 // import "./assets/plugins/owl.carousel/owl.carousel.min.css";
@@ -35,6 +36,7 @@ import "./assets/css/custom.css";
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <script src="../assets/js/widget.js"></script>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 
+// Morris CSS
+import "../assets/plugins/morrisjs/morris.css";
+import "../assets/plugins/css-chart/css-chart.css";
 import landscape1 from "../assets/images/assets/landscape1.jpg";
 import landscape2 from "../assets/images/assets/landscape2.jpg";
 import landscape3 from "../assets/images/assets/landscape3.jpg";
